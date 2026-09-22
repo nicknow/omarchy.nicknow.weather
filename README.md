@@ -43,6 +43,15 @@ To update to a newer version:
 omarchy plugin update nicknow.weather
 ```
 
+## Removal
+
+```bash
+omarchy plugin remove nicknow.weather --yes
+```
+
+Removing the plugin also re-enables the built-in `omarchy.weather` widget, so
+the weather pill and its details panel keep working as they did out of the box.
+
 ## How it works
 
 The plugin is a clone of the stock widget. The only difference from stock is in
