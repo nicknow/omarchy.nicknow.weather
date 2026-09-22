@@ -9,6 +9,10 @@ single change: where the stock widget drew only the condition icon in the bar,
 this one renders **icon + current temperature** (e.g. `n  57°F`). Clicking,
 right-clicking, and the detail panel behave exactly like the stock widget.
 
+## Preview
+
+![Preview](preview.jpg)
+
 ## Requirements
 
 - Any Omarchy install (Hyprland + Omarchy shell)
@@ -74,7 +78,8 @@ nicknow.weather/
 ├── manifest.json  # Plugin manifest (id, entry points, clonedFrom)
 ├── BarWidget.qml  # Bar pill: icon + temperature, click opens the panel
 ├── Panel.qml      # Weather detail popup / forecast / location settings
-└── Model.js       # Weather data parsing and icon mapping
+├── Model.js       # Weather data parsing and icon mapping
+└── preview.jpg    # Bar screenshot used in this README
 ```
 
 ## License
